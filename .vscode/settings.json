@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+    "commands": [
+        {
+            "match": ".*",
+            "cmd": "spicetify apply",
+            "workingDirectory": "${workspaceFolder}"
+        }
+    ]
+}
+}

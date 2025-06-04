@@ -1,0 +1,669 @@
+:root {
+	--scroll: 0 !important;
+
+	--spice-sidebar: var(--spice-mdsyscolorsurfacecontainer) !important;
+	--spice-text: var(--spice-mdsyscoloronsurface) !important;
+	--spice-player: var(--spice-mdsyscolorsurfacecontainerhigh) !important;
+	--spice-main: var(--spice-mdsyscolorsurface) !important;
+	--spice-main-elevated: var(--spice-mdsyscolorsurfacecontainerhigh) !important;
+	--spice-button: var(--spice-mdsyscolorprimary) !important;
+
+	--text-bright-accent: var(--spice-mdsyscolorprimary) !important;
+}
+
+.main-rootlist-rootlistDividerGradient {
+	background: unset;
+}
+
+.x-searchInput-searchInputSearchIcon,
+.x-searchInput-searchInputClearButton {
+	color: var(--spcie-mdsyscoloronsurface) !important;
+}
+
+.main-home-homeHeader,
+.x-entityHeader-overlay,
+.x-actionBarBackground-background,
+.main-actionBarBackground-background,
+.main-entityHeader-overlay,
+.main-entityHeader-backgroundColor {
+	background-color: unset !important;
+	background-image: unset !important;
+}
+
+.main-playButton-PlayButton.main-playButton-primary {
+	color: white;
+}
+
+.connect-device-list {
+	margin: 0px -5px;
+}
+
+/* Remove Topbar background colour */
+.main-topBar-background {
+	background-color: black !important;
+}
+
+.main-topBar-overlay {
+	background-color: var(--spice-mdsyscolorsurface);
+}
+
+.main-entityHeader-shadow,
+.main-contextMenu-menu,
+.connect-device-list-container {
+	box-shadow: 0 4px 20px #21212130;
+}
+
+.main-trackList-playingIcon {
+	filter: grayscale(1);
+}
+
+span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
+	fill: black;
+}
+
+
+/** Hightlight selected playlist */
+.main-rootlist-rootlistItemLink.main-rootlist-rootlistItemLinkActive {
+	background: var(--spice-mdsyscolorprimary) !important;
+	border-radius: 4px;
+	padding: 0 10px;
+	margin: 0 5px 0 -10px;
+}
+
+.main-navBar-navBarLinkActive {
+	background: var(--spice-mdsyscolorprimary);
+}
+
+.main-globalNav-navLink:hover {
+	background-color: color-mix(in srgb, var(--spice-mdsyscolorsurfacecontainerhigh), var(--spice-mdsyscoloronsurface) 24%) !important;
+}
+
+.main-contextMenu-menu {
+	background-color: var(--spice-mdsyscolorprimary);
+}
+
+.main-contextMenu-menuHeading,
+.main-contextMenu-menuItemButton,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):focus,
+.main-contextMenu-menuItemButton:not(.main-contextMenu-disabled):hover {
+	color: var(--spice-mdsyscoloronsurface);
+}
+
+.main-playPauseButton-button {
+	background-color: var(--spice-mdsyscolorprimary);
+	color: black;
+}
+
+/** Queue page header */
+.queue-queue-title,
+.queue-playHistory-title {
+	color: var(--spice-mdsyscoloronsurface) !important;
+}
+
+/** Cards */
+.main-cardImage-imageWrapper {
+	background-color: transparent;
+}
+
+.main-rootlist-rootlistDivider {
+	background-color: unset;
+}
+
+.main-nowPlayingBar-nowPlayingBar {
+	height: var(--player-bar-height);
+}
+
+input {
+	background-color: var(--spice-mdsyscolorsurfacecontainerhigh);
+	color: var(--spice-mdsyscoloronsurface) !important;
+}
+
+/* left menu active item background */
+.main-navBar-navBarLinkActive {
+	color: white;
+}
+
+/* profile icon */
+.main-entityHeader-imagePlaceholder {
+	color: unset;
+}
+
+/* left menu create playlist, liked songs and episodes button background */
+a.main-collectionLinkButton-collectionLinkButton.main-collectionLinkButton-selected.active,
+.main-createPlaylistButton-button:hover {
+	background-color: var(--spice-mdsyscolorprimary) !important;
+}
+
+/* Context Menu */
+.main-contextMenu-menu {
+	background-color: var(--spice-mdsyscolorsurfacecontainerhigh) !important;
+}
+
+/* Experimental features background */
+.main-trackCreditsModal-container {
+	background-color: var(--spice-mdsyscolorsurfacecontainerhigh) !important;
+}
+
+/* device showing menu */
+.main-connectBar-connectBar.mVVxN9ZfIRjiQfDuzPCZ {
+	background-color: var(--spice-mdsyscolorprimary) !important;
+	color: var(--text-mdsyscoloronsurfacevariant);
+}
+
+
+/* New lyrics style */
+
+:root {
+	--lyrics-text-direction: left;
+}
+
+.main-lyricsCinema-controls {
+	top: 80px !important;
+}
+
+#lyrics-backdrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black !important;
+}
+
+#lyrics-backdrop-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black !important;
+}
+
+.lyrics-lyrics-background {
+	visibility: hidden !important;
+}
+
+
+/* lyrics not available message */
+.C3pBU1DsOUJJOAv89ZFT {
+	color: var(--lyrics-color-passed) !important;
+	opacity: 0;
+	animation: reveal 800ms ease forwards;
+}
+
+@keyframes reveal {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.lyrics-lyricsContent-lyric:hover {
+	color: var(--lyrics-color-active) !important;
+}
+
+.lyrics-lyricsContent-active {
+	text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+	max-width: var(--lyrics-active-max-width);
+}
+
+@media (min-width: 1920px) {
+	.lyrics-lyricsContent-lyric {
+		transition: text-shadow 400ms ease, color 50ms ease;
+	}
+
+	.lyrics-lyricsContent-text {
+		transform: scale(1);
+		transition: transform 400ms ease;
+	}
+
+	.lyrics-lyricsContent-active .lyrics-lyricsContent-text {
+		transform: scale(1.1);
+	}
+
+	.lyrics-lyricsContent-isInteractive .lyrics-lyricsContent-text:active {
+		transform: scale(0.9);
+	}
+}
+
+.main-nowPlayingView-section .lyrics-lyricsContent-lyric {
+	opacity: 1;
+	visibility: visible;
+}
+
+.main-nowPlayingView-section .lyrics-lyricsContent-text {
+	transform: unset;
+}
+
+/* New Lyrics Plus style */
+
+.lyrics-lyricsContainer-LyricsBackground {
+	display: none !important;
+}
+
+/* lyrics pages fix */
+
+.main-lyricsCinema-nonDisplayedArea .main-topBar-topbarContent {
+	display: none;
+}
+
+.lyrics-lyrics-container {
+	margin-top: 0;
+}
+
+.lyrics-lyricsContainer-LyricsBackground {
+	margin-bottom: -110px;
+	margin-top: -10px;
+}
+
+.lyrics-lyricsContainer-Provider {
+	padding-bottom: 40px;
+}
+
+#lyrics-fullscreen-container>.lyrics-lyricsContainer-LyricsContainer:has(.lyrics-lyricsContainer-UnsyncedLyricsPage) .lyrics-lyricsContainer-Provider {
+	padding-bottom: 35px;
+}
+
+.lyrics-lyricsContainer-LyricsUnsyncedPadding {
+	height: 20vh;
+}
+
+.lyrics-config-button-container {
+	bottom: 15px;
+}
+
+#lyrics-fullscreen-container .lyrics-config-button-container {
+	bottom: 10px;
+}
+
+#fad-lyrics-plus-container .lyrics-config-button-container {
+	bottom: 32px;
+}
+
+body:has(#lyrics-fullscreen-container)>#main>.Root>.Root__top-container>*:not(.Root__main-view),
+body:has(#lyrics-fullscreen-container)>#main>.Root>.Root__top-container>.Root__main-view>*:not(.main-view-container),
+body:has(#lyrics-fullscreen-container)>#main>.Root>.Root__top-container>.Root__main-view>.main-view-container>*:not(.under-main-view),
+body:has(#lyrics-fullscreen-container)>#main>.Root>.Root__top-container>.Root__main-view::before {
+	display: none !important;
+}
+
+body:has(#lyrics-fullscreen-container)>#main>.Root {
+	--panel-gap: 0 !important;
+}
+
+.hKccLC {
+	background-color: var(--spice-accent);
+	color: var(--spice-alt-text);
+	border-radius: var(--border-radius-3);
+}
+
+.ksogXh:hover {
+	color: var(--spice-rgb-subtext);
+}
+
+.main-view-container__scroll-node-child,
+.main-yourLibraryX-libraryItemContainer,
+.main-buddyFeed-content,
+.nw2W4ZMdICuBo08Tzxg9 {
+	padding-bottom: 6rem;
+}
+
+.view-homeShortcutsGrid-imageContainer {
+	padding: 6px;
+}
+
+.view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-image {
+	border-radius: var(--border-radius-3);
+}
+
+.main-trackList-playsHeader {
+	width: 12.8ch;
+}
+
+.main-trackList-durationHeader {
+	margin-left: 30px;
+}
+
+.main-trackList-rowSectionEnd {
+	margin: auto;
+}
+
+.main-trackList-column {
+	padding-left: 10px;
+}
+
+.main-trackList-rowSectionVariable[aria-colindex="3"] .cPwEdQ,
+.main-trackList-rowSectionVariable[aria-colindex="3"] .main-trackList-text {
+	padding-left: 8.5px;
+}
+
+.main-trackList-rowSectionVariable[aria-colindex="4"] .eDbSCl {
+	padding-left: 14.5px;
+}
+
+.main-trackList-rowSectionVariable[aria-colindex="3"] .main-trackList-rowPlayCount {
+	padding-left: 0px;
+}
+
+.SxHlW6byhoJSUJNugaE1 .k6Nq7pavAmiyJlxj52QA {
+	color: var(--spice-alt-text);
+}
+
+.npv-background-image__overlay {
+	background-color: rgba(var(--spice-rgb-layer-shadow), 0.7) !important;
+}
+
+.main-rootlist-rootlistItemOverlay {
+	display: none;
+}
+
+/* FullScreen Styles */
+
+.npv-background-image__overlay {
+	backdrop-filter: saturate(1.3) brightness(0.5);
+}
+
+.npv-main-container,
+.npv-background-color,
+.npv-lyrics__gradient-background {
+	background-color: rgba(var(--spice-rgb-main), 0.75) !important;
+	background-image: none !important;
+	background: none !important;
+}
+
+.npv-track-metadata,
+.npv-up-next {
+	min-width: 6rem;
+	border: 2px solid rgba(var(--spice-rgb-main), var(--bg-color-opacity-homeHeader));
+	padding: 0.5rem;
+	border-radius: var(--card-border-radius);
+	background-color: rgba(var(--spice-rgb-card), 0.75);
+	color: rgba(var(--spice-rgb-subtext), 0.6);
+}
+
+.npv-up-next__info {
+	color: var(--spice-mdsyscoloronsurface);
+}
+
+.pO2rsGFqUdaNhpLrif21 a {
+	color: var(--spice-mdsyscoloronsurface) !important;
+}
+
+.ellipsis-one-line {
+	color: var(--spice-mdsyscoloronsurfacevariant) !important;
+}
+
+.npv-lyrics__text--credits,
+.npv-track-metadata__creator-name,
+.npv-lyrics__text-wrapper--previous,
+.npv-lyrics__text--credits {
+	color: rgba(var(--spice-rgb-text), 0.5) !important;
+}
+
+::backdrop {
+	backdrop-filter: blur(3rem) saturate(1.3) invert(0.0125) brightness(0.5);
+	background-color: rgba(var(--spice-rgb-main), 0.75);
+}
+
+.yhlH4Dsjqw56Z58EOwvQ {
+	background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(var(--spice-rgb-shadow), .6))), var(--background-noise);
+}
+
+
+.encore-dark-theme .encore-bright-accent-set {
+	--background-base: var(--spice-mdsyscolorsurface);
+	--background-highlight: var(--spice-mdsyscolorprimarycontainer);
+	--background-press: #797979;
+}
+
+
+/* scrollbar hide */
+
+.os-scrollbar.os-scrollbar-handle-interactive .os-scrollbar-handle,
+.os-scrollbar.os-scrollbar-track-interactive .os-scrollbar-track {
+	width: 0 !important;
+}
+
+/* white text instead of accented color */
+.encore-internal-color-text-subdued {
+	color: white;
+}
+
+/* fullscreen artist page*/
+.wozXSN04ZBOkhrsuY5i2,
+.XUwMufC5NCgIyRMyGXLD {
+	height: 90vh;
+	clip-path: inset(0 0 17vh 0);
+}
+
+.main-entityHeader-container.main-entityHeader-withBackgroundImage {
+	height: 73vh;
+}
+
+.dhq75ObRGjfBoBlz6clW:after {
+	height: 90vh;
+	background-color: transparent;
+}
+
+.main-yourLibraryX-libraryContainer {
+	box-shadow: unset !important;
+	--background-base: var(--spice-mdsyscolorsurfacecontainer);
+}
+
+.main-rootlist-rootlistDivider {
+	background: none !important;
+}
+
+.main-rootlist-rootlistItem {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+.b7r2WRiu5f9Q99qmyreh .main-topBar-searchBar {
+	background: var(--spice-mdsyscolorsurface) !important;
+}
+
+
+/* remove shadow from the left bar */
+.RHRitk6QC3rvuG24RAdj {
+	-webkit-box-shadow: unset !important;
+	box-shadow: unset !important;
+}
+
+/* border radius */
+.Root__main-view,
+.ffFwfKcPDbmAPLXzxzKq {
+	border-radius: 16px !important;
+}
+
+/* position of the filter chips */
+.main-home-filterChipsContainer {
+	position: static !important;
+}
+
+/* remove the shadow from the playlist cover */
+.mjZrvVI3CxfHJXu7y0Lg {
+	display: none !important;
+}
+
+.LegacyChipComponent-checkbox-chip-sm-useBrowserDefaultFocusStyle {
+	border: unset !important;
+}
+
+/* border radius chips */
+.LegacyChipInner__ChipInnerComponent-sc-1qguixk-0,
+.ChipInnerComponent-sm {
+	border-radius: 8px !important;
+	border: 1px solid var(--spice-mdsyscoloronsurface) !important;
+}
+/* border radius chips fix */
+@media(min-width: 768px) {
+	.encore-layout-themes {
+		--encore-spacing-tighter-2: 4px !important;
+	}
+}
+
+.ChipInnerComponent-sm-selected {
+	border: unset !important;
+}
+
+.main-contextMenu-tippy {
+	border-radius: 4px !important;
+	box-shadow: unset !important;
+}
+
+ /* home shortcuts */
+.main-card-cardContainer,
+.view-homeShortcutsGrid-main{
+	background-color: var(--spice-mdsyscolorsurfacecontainerhigh);
+	z-index: 0;
+}
+
+.view-homeShortcutsGrid-shortcut {
+	border-radius: 12px;
+}
+
+.view-homeShortcutsGrid-imageContainer {
+	padding: 0;
+}
+.eWZOJQ,
+.GOcsybnoHYyJGQGDRuwj,
+.view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-imageWrapper {
+	box-shadow: unset !important;
+	-webkit-box-shadow: unset !important;
+}
+.main-gridContainer-gridContainer,
+.qI009QzTkvisAXqhbw74 {
+	gap: 8px;
+	grid-gap: 8px;
+}
+.IriswrXFrjhQwRTmrgIf,
+.lx7nfGbsUkI_2pC6caw9{
+	background-color: unset !important;
+}
+
+.HD9s7U5E1RLSWKpXmrqx,
+.e-9890-button-icon-only--small,
+.main-nowPlayingView-coverArt,
+.main-editImageButton-overlay,
+.main-entityHeader-image,
+.GSgVaqJa8VEp5mKoIN0b,
+.Q36ugVAb7krhThyRTmJ_,
+.IriswrXFrjhQwRTmrgIf,
+.main-card-cardContainer,
+.GOcsybnoHYyJGQGDRuwj,
+.yMQTWVwLJ5bV8VGiaqU3 {
+	border-radius: 12px !important;
+}
+.Button-buttonTertiary-small-iconOnly-useBrowserDefaultFocusStyle,
+.Button-buttonTertiary-small-iconOnly-isUsingKeyboard-useBrowserDefaultFocusStyle  {
+	background-color: var(--spice-mdsyscolorsurfacecontainerhigh) !important;
+	height: 32px !important;
+	width: 32px !important;
+}
+
+.lihLVK button,
+.main-genericButton-button {
+	background-color: transparent !important;
+}
+
+.encore-dark-theme .encore-bright-accent-set {
+	--background-base: var(--spice-mdsyscolorprimary) !important;
+	--background-highlight: color-mix(in srgb, var(--spice-mdsyscolorprimary), var(--spice-mdsyscoloronprimary) 14%) !important;
+	--background-press: color-mix(in srgb, var(--spice-mdsyscolorprimary), var(--spice-mdsyscoloronprimary) 24%) !important;
+}
+.main-genericButton-button.main-genericButton-buttonActiveDot:after,
+.main-genericButton-button.main-genericButton-buttonActive,
+.Button-checkbox-buttonTertiary-textBrightAccent-small-iconOnly-useBrowserDefaultFocusStyle,
+.Button-buttonTertiary-textBrightAccent-small-iconOnly-useBrowserDefaultFocusStyle {
+	color: var(--spice-mdsyscolorprimary) !important;
+}
+.O5NOY8Xw4NH0IhBZu8tm svg,
+.iWcofSXjs9MuRfHzkuI9 svg,
+.OO14Jbk4k4Sfsnl3GMni svg,
+.ZbFkATBbLkWh2SHMXDt6 svg {
+	--encore-icon-fill: var(--spice-mdsyscolorprimary) !important;
+}
+
+
+.main-genericButton-button.main-genericButton-buttonActiveDot:after {
+	background-color: var(--spice-mdsyscolorprimary) !important;
+}
+
+.jqyvmzPqG7urWWv1OS2n,
+.nGWhztVvLY1BInXjcWYa {
+	background-color: var(--spice-mdsyscolorsurfacecontainerhigh) !important;
+	border-radius: 12px !important;
+}
+
+.marketplace-header-icon-button,
+.searchbar-bar,
+.x-filterBox-expandedOrHasFilter .x-filterBox-filterInput:placeholder-shown {
+	border-radius: 9999px !important;
+}
+
+.GimJ6fo6WOYPyWNVpSr1 {
+	background-color: var(--spice-mdsyscolorsurfacecontainerhigh) !important;
+}
+
+.main-topBar-background {
+	background-color: var(--spice-mdsyscolorsurface) !important;
+}
+
+
+
+.player-controls__buttons, .player-controls {
+	margin-top: 8px;
+}
+
+.player-controls__buttons .e-9890-button-primary {
+	scale: 1.3;
+}
+
+
+
+/* swap icons 
+
+svg path[d="СТАРЫЙ"] {
+	d: path("НОВЫЙ");
+}
+
+*/
+
+/* browse 
+svg path[d="M1.513 9.37A1 1 0 0 1 2.291 9h19.418a1 1 0 0 1 .979 1.208l-2.339 11a1 1 0 0 1-.978.792H4.63a1 1 0 0 1-.978-.792l-2.339-11a1 1 0 0 1 .201-.837zM3.525 11l1.913 9h13.123l1.913-9H3.525zM4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4h-2V3H6v3H4V2z"] {
+	d: path("M10 18q1.25 0 2.125-.875T13 15V8h3V6h-4.5v6.4q-.35-.2-.725-.3T10 12q-1.25 0-2.125.875T7 15t.875 2.125T10 18m2 4q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8");
+}
+
+svg path[d="M4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4H4V2zM1.513 9.37A1 1 0 0 1 2.291 9H21.71a1 1 0 0 1 .978 1.208l-2.17 10.208A2 2 0 0 1 18.562 22H5.438a2 2 0 0 1-1.956-1.584l-2.17-10.208a1 1 0 0 1 .201-.837zM12 17.834c1.933 0 3.5-1.044 3.5-2.333 0-1.289-1.567-2.333-3.5-2.333S8.5 14.21 8.5 15.5c0 1.289 1.567 2.333 3.5 2.333z"] {
+	d: path("M10 18q1.25 0 2.125-.875T13 15V8h3V6h-4.5v6.4q-.35-.2-.725-.3T10 12q-1.25 0-2.125.875T7 15t.875 2.125T10 18m2 4q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22");
+}
+
+/* home 
+svg path[d="СТАРЫЙ"] {
+	d: path("НОВЫЙ");
+}
+
+svg path[d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z"] {
+	d: path("M4 19v-9q0-.475.213-.9t.587-.7l6-4.5q.525-.4 1.2-.4t1.2.4l6 4.5q.375.275.588.7T20 10v9q0 .825-.588 1.413T18 21h-3q-.425 0-.712-.288T14 20v-5q0-.425-.288-.712T13 14h-2q-.425 0-.712.288T10 15v5q0 .425-.288.713T9 21H6q-.825 0-1.412-.587T4 19");
+}
+
+*/
+
+/* Player button styles */
+button[data-testid="control-button-playpause"] span:has(svg path[d="M2.7 1a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7H2.7zm8 0a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-2.6z"]) {
+	border-radius: 12px !important;
+}
+
+button[data-testid="control-button-playpause"] span:has(svg path[d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288V1.713z"]) {
+	border-radius: 999px !important;
+	transition: all 0.3s  cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+}
+
+/* removing currentColor fallback from icons */
+.main-nowPlayingBar-extraControls .e-9890-icon {
+    fill: var(--encore-icon-fill, var(--spice-mdsyscoloronsurfacevariant)) !important;
+}
+
+.player-controls .player-controls__buttons
