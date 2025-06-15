@@ -4,6 +4,10 @@ A clean, modern theme for [Spicetify](https://github.com/spicetify/spicetify-cli
 
 ## 📸 Screenshots
 
+![image](https://github.com/user-attachments/assets/bb141fdd-8dbb-489a-ab7f-313f2c7009f7)
+![{F3EB99F7-605E-49DC-A0CE-A4BE1F4953ED}](https://github.com/user-attachments/assets/8d50a964-5333-4ebb-938f-0d362c6aded3)
+
+
 
 ## 📦 Features
 - Material You inspired look and feel
